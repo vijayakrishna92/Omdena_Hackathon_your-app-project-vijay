@@ -22,26 +22,26 @@ python -m venv any_name
 
 This will create a folder with the name you provided (any_name).
 
-###3. Activate the Virtual Environment
+### 3. Activate the Virtual Environment
 
 Navigate to the Scripts folder inside the virtual environment.
 Drag and drop the activate file into your terminal, or use the following command:
 
 .\any_name\Scripts\activate
 
-###4. Create a .env file
+### 4. Create a .env file
 
 Inside the project folder, create a .env file and add your Hugging Face API key:
 
 HUGGINGFACE_API_KEY=hf_yourapikeyhere
 
-###5. Install Required Packages
+### 5. Install Required Packages
 
 Install all the necessary packages by running:
 
 pip install -r requirements.txt
 
-###6. Run the Application
+### 6. Run the Application
 
 Start the Streamlit app by running:
 
@@ -49,9 +49,9 @@ streamlit run main.py
 
 This will open a local instance of the web app in your default browser.
 
-###Additional Notes
+### Additional Notes
 Make sure you have Hugging Face account to obtain the API key.
 
-###License
+### License
 Include the license details if needed.
 
